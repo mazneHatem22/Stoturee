@@ -1,0 +1,91 @@
+@media (max-width:768px) {
+    .paragraph-home{
+        font-size: 18px;
+    }
+    .h-nav {
+        position: absolute;
+        right: 20%;
+        bottom: 20%;
+      }
+      .toggle{
+        right: 10%;
+        bottom: 30%;
+        position: absolute;
+      
+      }
+      .email{
+        transform: translateX(10px);
+      }
+      .about-text-groub{
+        transform: translateY(50px);
+      }
+      .project-cermart{
+        transform: translateY(-40%);
+      }
+      .footer-png{
+        height: 112vh;
+      }  
+}
+
+
+
+@media (max-width:425px){
+    .carousel-text h1{
+        font-size: 50px;
+    }
+    .carousel-text p{
+        font-size: 15px;
+    }
+    .footer{
+        height: 60vh;
+      }
+      .email{
+        transform: translateX(-5px);
+      }
+      .about-text-groub h1{
+        font-size: 50px;
+      }
+      .about-text{
+        font-size: 15px;
+      }
+      .icon-about{
+        position: absolute;
+        top: 150px;
+        left: 50px;
+      }
+      .icon-about img{
+        width: 15%;
+      }
+      .icon-about-policy{
+        position: absolute;
+        top: 150px;
+        left: 50px;
+      }
+      .icon-about-policy img{
+        width: 15%;
+      }
+      .text-work{
+        font-size: 12px;
+      }
+      .p-text{
+        font-size: 12px;
+      }
+
+      .background2{
+        background-image: url(./images/Stoture\ Web\ work\ 2-05.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 75vh;
+      }
+      .background2 h1{
+      font-size: 40px;
+      }
+      .project-cermart{
+        transform: translateY(-20%);
+      }
+      .footer-png{
+        height: 145vh;
+      }
+
+}

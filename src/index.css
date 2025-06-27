@@ -1,0 +1,415 @@
+body {
+  transition: direction 0.3s, text-align 0.3s;
+  overflow-x: hidden;
+}
+
+a{
+  text-decoration: none;
+}
+
+.rtl {
+  direction: rtl;
+  text-align: right;
+}
+
+.ltr {
+  direction: ltr;
+  text-align: left;
+}
+
+body .navbar {
+  position: fixed;
+  z-index: 100;
+  width: 100%;
+  height: 90px;
+  background-color: #e9eceff0 !important;
+}
+
+.offcanvas.offcanvas-end {
+  top: 0;
+  right: 0;
+  width: var(--bs-offcanvas-width);
+  border-left: var(--bs-offcanvas-border-width) solid
+    var(--bs-offcanvas-border-color);
+  transform: translateX(100%);
+  background-size: cover;
+  height: 100%;
+}
+
+.menu {
+  display: none; /* اخفاء القائمة بشكل افتراضي */
+  flex-direction: column; /* ترتيب العناصر عمودياً */
+  position: absolute; /* لتكون فوق العناصر الأخرى */
+  background-color: #f8f9fa; /* خلفية القائمة */
+  width: 100%; /* عرض القائمة */
+  top: 56px; /* المسافة من أعلى الناف بار */
+  left: 0; /* بداية من الجانب الأيسر */
+  z-index: 1; /* لجعلها فوق العناصر الأخرى */
+}
+
+.menu.show {
+  display: flex; /* عرض القائمة عند التبديل */
+}
+
+.taps {
+  background-color: red;
+  height: 100px;
+}
+.taps2 {
+  height: 200px;
+  margin-top: 40px;
+}
+
+/* header{
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  width: 100%;
+  backdrop-filter: saturate(100%) blur(6px);
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 1.3rem 10%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  z-index: 1;
+} */
+
+/* .xx{
+  position: absolute;
+  top: 10;
+  width: 100%;
+ padding: 50px;
+  background-color: black;
+  color: white;
+  transform: translateY(-145%);
+  transition: 0.8s;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 999;
+}
+.yy{
+  transform: translateY(0%);
+  opacity: 1;
+  visibility: visible;
+}
+.click{
+  right: 20px;
+  position: absolute;
+} */
+
+/* @media (max-width:754px) {
+  .xx{
+    top: 200px;
+  }
+  
+} */
+
+.cool {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.photo {
+  width: 100%;
+}
+
+.scroll-to-top {
+  position: fixed;
+  bottom: 100px;
+  right: 50px;
+  padding: 10px 20px;
+  cursor: pointer;
+  z-index: 1000;
+  transition: opacity 0.4s, transform 0.4s ease-in-out;
+  opacity: 0;
+  transform: scale(0);
+  pointer-events: none; /* لتعطيل التفاعل عندما يكون مخفيًا */
+  width: 100px;
+}
+
+.scroll-to-top.show {
+  opacity: 1;
+  transform: scale(1);
+  pointer-events: auto; /* تمكين التفاعل عندما يظهر */
+}
+
+.scroll-to-top.hide {
+  opacity: 0;
+  transform: scale(0);
+  pointer-events: none;
+}
+
+.h-nav {
+  position: absolute;
+  right: 13%;
+}
+.h-nav img {
+ width: 45px;
+}
+.work {
+  transform: translateX(-30px);
+}
+
+.text-color {
+  color: #afafaf;
+}
+.text-color:hover {
+  color: black;
+  cursor: pointer;
+}
+
+.toggle-text h1 {
+  font-size: 50px;
+  font-weight: 400;
+}
+.get {
+  font-weight: bold;
+}
+
+.navbar-toggler {
+  border-style: none !important;
+}
+.navbar-toggler:focus{
+  box-shadow: none;
+}
+
+.click2 {
+  border-radius: 30px !important;
+  height: 40px;
+  width: 120px;
+}
+
+.hover {
+  transition: 0.4s;
+}
+
+.hover:hover {
+  color: #0072ec;
+  cursor: pointer;
+  transform: translateX(30px);
+}
+
+.footer {
+  background-color: #e8e8e8;
+  position: relative;
+  width: 100%;
+  height: 200px;
+}
+
+.footer-group {
+  transform: translateY(130px);
+}
+
+.text-color2 {
+  color: #afafaf;
+}
+.text-color2:hover {
+  color: black;
+  cursor: pointer;
+}
+
+.background {
+  background-image: url(./images/Stoture\ Web\ work\ 2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+}
+
+.about-text {
+  font-size: 100px;
+  color: white;
+}
+
+.p-text {
+  font-size: 20px;
+  color: white;
+}
+
+.icon-about {
+  position: absolute;
+  top: 150px;
+  left: 100px;
+}
+.icon-about img {
+  width: 20%;
+}
+
+.our-group {
+  background-color: #07101f;
+  width: 100%;
+  height: 100%;
+  color: white;
+}
+
+.vv {
+  width: 80px;
+}
+.as1 {
+  width: 100px;
+}
+.as2 {
+  width: 50px;
+  transform: translateY(-15px);
+}
+.as4 {
+  width: 130px;
+}
+.as7 {
+  width: 130px;
+}
+.as6 {
+  width: 100px;
+}
+
+.text-color3 {
+  color: #afafaf;
+}
+.text-color3:hover {
+  color: black;
+  cursor: pointer;
+}
+
+.background2 {
+  background-image: url(./images/Stoture\ Web\ work\ 2-05.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+}
+
+/* .cemart-group div {
+  transition: transform 0.5s ease-in-out;
+}
+
+.cemart-group div:hover {
+  transform: scale(1.1);
+} */
+
+.project-cermart {
+  transform: translateY(-50%);
+}
+
+.photo-group {
+  transform: translateY(-5%);
+}
+
+.footer-png {
+  background-image: url(./images/Cemart-08.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  color: white;
+}
+
+.icc-text {
+  transform: translateY(50%);
+}
+.icc-text h1 {
+  font-size: 100px;
+  color: white;
+}
+.icc-text h2 {
+  font-size: 60px;
+}
+
+.link-groub {
+  transform: translateY(100px);
+}
+.email {
+  transform: translateX(25%);
+}
+.toggle {
+  width: 30px;
+}
+.slick-slide img {
+  margin: auto;
+}
+
+.background-conatct {
+  background-image: url(./images2/Stoture-contact-us.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+}
+
+.get , .num , .new{
+  border-bottom: 1px solid #c8c8c8;
+  
+}
+
+.slider-fearturead img{
+width: 66%;
+border-radius: 15px;
+
+
+}
+
+.feartured-groub .slick-next {
+  right: -3%;
+  top: -15%;
+ 
+
+ 
+}
+
+.feartured-groub .slick-prev {
+  top: -15%;
+  left: 98%;
+}
+
+/* .feartured-groub .slick-next:before {
+  font-family: 'slick';
+  font-size: 20px;
+  line-height: 1;
+  opacity: .75;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+ 
+}
+
+.feartured-groub .slick-prev:before {
+  font-family: 'slick';
+  font-size: 20px;
+  line-height: 1;
+  opacity: .75;
+  color: white;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+ 
+ 
+}
+
+.feartured-groub .slick-arrow{
+  background-image: url(./images2/Asset\ 2.svg);
+} */
+
+.button-view{
+  transform: translateX(-50px);
+}
+
+
+.background-policy {
+  background-image: url(./images2/Stoture-Privacy-Policy.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+}
+
+
+
+
+.icon-about-policy {
+  position: absolute;
+  top: 150px;
+  left: 100px;
+}
+.icon-about-policy img {
+  width: 20%;
+  border-radius: 50px;
+    background-color: #00000069;
+}
