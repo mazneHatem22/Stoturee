@@ -4,9 +4,45 @@ import { Link } from 'react-router-dom'
 
 const Footer = () => {
   return (
-    <div className='footer mt-5'>
-        <Container>
-            <div className='footer-group'>
+    <div  className='mt-5 footer-style'>
+        <Container className='h-100'>
+          <div className='row h-100 footer-col'>
+            <div className='col-lg-9'>
+              <div className='row '>
+                <div className='col-lg-3'>
+                  <h5>Linkedin</h5>
+                </div>
+                <div className='col-lg-3'>
+                  <h5>Instagram</h5>
+                </div>
+                <div className='col-lg-3'>
+                  <h5>Behance</h5>
+                </div>
+                <div className='col-lg-3'>
+                  <h5>Facebook</h5>
+                </div>
+              </div>
+            </div>
+            <div className='col-lg-3'>
+           <div style={{ }} className="">
+                  <h6> <a style={{color:"black"}} href='mailto:stoture.media@gmail.com'>stoture.media@gmail.com</a></h6>
+                  <div style={{ fontSize: "10px" }} className="d-flex">
+                    
+                    <Link to={"/terms"}> 
+                    <p style={{color:"black"}} className="mx-3 mb-0">Terms & Conditions</p>
+                    </Link>
+                    <Link to={"/policy"}>
+                    <p style={{color:"black"}} className='mb-0'>Privacy Policy</p>
+                    </Link>
+                   
+                  </div>
+                </div>
+            </div>
+
+
+          </div>
+
+            {/* <div className='footer-group'>
 
            
         <Row>
@@ -38,7 +74,7 @@ const Footer = () => {
                 </div>
               </Col>
             </Row>
-            </div>
+            </div> */}
 
         </Container>
     </div>

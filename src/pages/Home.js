@@ -1,5 +1,5 @@
 import React from "react";
-import NavBar from "../componentsHome/NavBar";
+
 import OurWork from "../componentsHome/OurWork";
 import Slider from "../componentsHome/Slider";
 import Services from "../componentsHome/Services";
@@ -11,7 +11,7 @@ import ScrollTop from "../componentsHome/ScrollTop";
 const Home = () => {
   return (
     <div>
-      <NavBar />
+     
       <Slider />
       <Logo/>
       <OurWork />

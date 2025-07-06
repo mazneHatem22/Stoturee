@@ -413,3 +413,15 @@ border-radius: 15px;
   border-radius: 50px;
     background-color: #00000069;
 }
+
+.footer-style{
+  padding: 15px;
+    height: 40vh;
+    background-color: #e8e8e8;
+}
+
+.footer-col{
+    align-items: end;
+    height: 100%;
+    display: flex;
+}

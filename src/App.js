@@ -9,6 +9,7 @@ import CemartGroup from "./pages/CemartGroup";
 import ContactUs from "./pages/ContactUs";
 import Policy from "./pages/Policy";
 import Terms from "./pages/Terms";
+import NavBar from "./componentsHome/NavBar";
 
 
 function App() {
@@ -25,7 +26,9 @@ function App() {
   // }, [i18n.language]);
 
   return (
+    
     <BrowserRouter>
+    <NavBar/>
     <Routes>
     <Route path="/" element={<Home />}/>
     <Route path="/about" element={<AboutUs />}/>

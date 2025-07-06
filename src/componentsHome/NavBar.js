@@ -18,21 +18,29 @@ function NavBar() {
     <>
       {[false].map((expand) => (
         <Navbar key={expand} expand={expand} className="bg-body-tertiary mb-3">
-          <Container>
-            <Navbar.Brand href="#">
+          <Container >
+            <div className="d-flex justify-content-between align-items-center w-100">
+               <Navbar.Brand href="#">
               <img className="w-50" src={stoture} alt="" />
             </Navbar.Brand>
-            <div className="d-flex h-nav">
+            <div className="d-flex align-items-center gap-4">
+               <div className="text-center d-flex flex-column">
               <div>
-                <img className="chat" src={chat} alt="" />
+                <img style={{width:"40px"}} className="chat" src={chat} alt="" />
               </div>
               <div>
-                <h4 className="mx-3">Lets Talk </h4>
+                <p className="mb-0 text-font">Lets Talk </p>
               </div>
             </div>
             <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`}>
               <img className="toggle" src={toggle} alt="" />
             </Navbar.Toggle>
+
+            </div>
+
+            </div>
+           
+           
             <Navbar.Offcanvas
               id={`offcanvasNavbar-expand-${expand}`}
               aria-labelledby={`offcanvasNavbarLabel-expand-${expand}`}
@@ -42,21 +50,21 @@ function NavBar() {
               <Offcanvas.Body>
                 <div className="text-end  mx-5 toggle-text">
                   <div>
-                    <h1 className="">Homepage</h1>
+                    <h2 className="">Homepage</h2>
                     <Link to={"/about"} style={{ textDecoration: "none" }}>
-                      <h1 className="text-color">About us</h1>
+                      <h2 className="text-color">About us</h2>
                     </Link>
                     <Link to={"/work"} style={{ textDecoration: "none" }}>
-                      <h1 className="text-color">work</h1>
+                      <h2 className="text-color">work</h2>
                     </Link>
                     <Link to={"/contact"} style={{ textDecoration: "none" }}>
-                      <h1 className="text-color2">Contact us</h1>
+                      <h2 className="text-color2">Contact us</h2>
                     </Link>
                   </div>
                   <div className="mt-5">
                     <p className="get">Get in touch</p>
-                    <h3 className="text-color">+97150 936 9323</h3>
-                    <h4 className="text-color">
+                    <h4 className="text-color">+97150 936 9323</h4>
+                    <h5 className="text-color">
                       {" "}
                       <a
                         className="text-color"
@@ -64,25 +72,25 @@ function NavBar() {
                       >
                         Stoture.media@gmail.com
                       </a>
-                    </h4>
-                    <div className="mt-5">
+                    </h5>
+                    <div className="mt-3">
                       <FaLinkedinIn
-                        size={"25px"}
+                        size={"20px"}
                         style={{ color: "#808080" }}
-                        className="mx-3  "
+                        className="mx-3"
                       />
                       <FaInstagram
-                        size={"25px"}
+                        size={"20px"}
                         style={{ color: "#808080" }}
                         className="mx-3 "
                       />
                       <FaBehance
-                        size={"25px"}
+                        size={"20px"}
                         style={{ color: "#808080" }}
                         className="mx-3 "
                       />
                       <FaFacebookF
-                        size={"25px"}
+                        size={"20px"}
                         style={{ color: "#808080" }}
                         className="mx-3"
                       />

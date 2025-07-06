@@ -1,4 +1,4 @@
-@media (max-width:768px) {
+@media (max-width:767px) {
     .paragraph-home{
         font-size: 18px;
     }
@@ -8,10 +8,13 @@
         bottom: 20%;
       }
       .toggle{
-        right: 10%;
+        /* right: 10%;
         bottom: 30%;
-        position: absolute;
+        position: absolute; */
       
+      }
+      .text-font{
+        font-size: 10px !important;
       }
       .email{
         transform: translateX(10px);

@@ -1,5 +1,5 @@
 import React from 'react'
-import NavBarAbout from '../componentsApout/NavBarAbout'
+
 
 import Branding from '../componentsApout/Branding'
 import OurBranding from '../componentsApout/OurBranding'
@@ -13,7 +13,7 @@ import ScrollTop from '../componentsHome/ScrollTop'
 const AboutUs = () => {
   return (
     <div>
-        <NavBarAbout/>
+        
         <SliderAbout/>
         <Branding/>
         <OurBranding/>
