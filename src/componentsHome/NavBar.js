@@ -48,23 +48,23 @@ function NavBar() {
             >
               <Offcanvas.Header closeButton></Offcanvas.Header>
               <Offcanvas.Body>
-                <div className="text-end  mx-5 toggle-text">
+                <div className="text-end  mx-5">
                   <div>
-                    <h2 className="">Homepage</h2>
+                    <h1 className="">Homepage</h1>
                     <Link to={"/about"} style={{ textDecoration: "none" }}>
-                      <h2 className="text-color">About us</h2>
+                      <h1 className="text-color">About us</h1>
                     </Link>
                     <Link to={"/work"} style={{ textDecoration: "none" }}>
-                      <h2 className="text-color">work</h2>
+                      <h1 className="text-color">work</h1>
                     </Link>
                     <Link to={"/contact"} style={{ textDecoration: "none" }}>
-                      <h2 className="text-color2">Contact us</h2>
+                      <h1 className="text-color2">Contact us</h1>
                     </Link>
                   </div>
                   <div className="mt-5">
-                    <p className="get">Get in touch</p>
-                    <h4 className="text-color">+97150 936 9323</h4>
-                    <h5 className="text-color">
+                    <p >Get in touch</p>
+                    <h3 className="text-color">+97150 936 9323</h3>
+                    <h4 className="text-color">
                       {" "}
                       <a
                         className="text-color"
@@ -72,7 +72,7 @@ function NavBar() {
                       >
                         Stoture.media@gmail.com
                       </a>
-                    </h5>
+                    </h4>
                     <div className="mt-3">
                       <FaLinkedinIn
                         size={"20px"}

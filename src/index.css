@@ -425,3 +425,15 @@ border-radius: 15px;
     height: 100%;
     display: flex;
 }
+
+@font-face {
+  font-family: 'Cairo';
+  src: url('./Fonts/Aeonik-Bold.otf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* استخدام الخط */
+body {
+  font-family: 'Cairo', sans-serif;
+}
