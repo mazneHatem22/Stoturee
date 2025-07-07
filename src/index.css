@@ -117,15 +117,15 @@ body .navbar {
 
 .scroll-to-top {
   position: fixed;
-  bottom: 100px;
-  right: 50px;
+  bottom: 0;
+  right: 0px;
   padding: 10px 20px;
   cursor: pointer;
   z-index: 1000;
   transition: opacity 0.4s, transform 0.4s ease-in-out;
-  opacity: 0;
-  transform: scale(0);
-  pointer-events: none; /* لتعطيل التفاعل عندما يكون مخفيًا */
+  opacity: 0 ;
+  transform: scale(0) ;
+  pointer-events: none ; /* لتعطيل التفاعل عندما يكون مخفيًا */
   width: 100px;
 }
 
@@ -242,6 +242,7 @@ body .navbar {
   width: 100%;
   height: 100%;
   color: white;
+  padding: 15px;
 }
 
 .vv {
@@ -329,7 +330,7 @@ body .navbar {
 }
 
 .background-conatct {
-  background-image: url(./images2/Stoture-contact-us.jpg);
+  background-image: url(./images2/Stoturecontactus2.png);
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
@@ -342,7 +343,7 @@ body .navbar {
 }
 
 .slider-fearturead img{
-width: 66%;
+width: 100%;
 border-radius: 15px;
 
 
@@ -428,7 +429,7 @@ border-radius: 15px;
 
 @font-face {
   font-family: 'Cairo';
-  src: url('./Fonts/Aeonik-Bold.otf') format('truetype');
+  src: url('./Fonts/NeueHaasGroteskDisplay-Medium.otf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
@@ -436,4 +437,8 @@ border-radius: 15px;
 /* استخدام الخط */
 body {
   font-family: 'Cairo', sans-serif;
+}
+
+.width-text{
+  width: 400px;
 }

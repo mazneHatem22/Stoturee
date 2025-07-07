@@ -1,4 +1,7 @@
 @media (max-width:767px) {
+  .width-text{
+    width: 100%;
+  }
     .paragraph-home{
         font-size: 18px;
     }

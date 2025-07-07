@@ -7,7 +7,7 @@ const TextTerms = () => {
       <Container>
         <div>
           <h1 className="mt-4">Introduction</h1>
-          <p className="mt-4" style={{ fontWeight: "600" }}>
+          <p className="mt-4" >
             Stoture places great importance on the security and protection of
             personal information. We are committed to safeguarding your personal
             data and respecting your privacy. By accessing or using our website
@@ -19,7 +19,7 @@ const TextTerms = () => {
         </div>
         <div className="mt-5">
           <h1 className="mt-4">Modification of the Privacy Policy</h1>
-          <p className="mt-4" style={{ fontWeight: "600" }}>
+          <p className="mt-4" >
             We reserve the right to amend this privacy policy at any time by
             posting the amended text on the site. The modifications will become
             effective immediately upon publication, and users are encouraged to
@@ -27,18 +27,18 @@ const TextTerms = () => {
           </p>
         </div>
         <div className="mt-5">
-          <h1 className="mt-4">1.0 Who We Are - Stoture</h1>
-          <p className="mt-4" style={{ fontWeight: "600" }}>
+          <h1 className="mt-4">01. Who We Are - Stoture</h1>
+          <p className="mt-4">
             This site is operated by Stoture.
           </p>
-          <p className="mt-4" style={{ fontWeight: "600" }}>
+          <p className="mt-4" >
             Stoture will be the data controller of the personal data we collect
             about you through the site.
           </p>
         </div>
         <div className="mt-5">
-          <h1 className="mt-4">2.0 Intellectual Property Rights</h1>
-          <p className="mt-4" style={{ fontWeight: "600" }}>
+          <h1 className="mt-4">02.Intellectual Property Rights</h1>
+          <p className="mt-4" >
             Unless otherwise stated, we or our licensors own the intellectual
             property rights in the website and the materials on it. These rights
             are subject to the usage license set forth below, and all these
@@ -46,8 +46,8 @@ const TextTerms = () => {
           </p>
         </div>
         <div className="mt-5">
-          <h1 className="mt-4">3.0 License to Use the Website</h1>
-          <p className="mt-4" style={{ fontWeight: "600" }}>
+          <h1 className="mt-4">03. License to Use the Website</h1>
+          <p className="mt-4" >
             You are permitted to view pages of the website and download them for
             caching purposes only, and to print them for your personal use,
             subject to the restrictions set out below and elsewhere in these
@@ -55,13 +55,13 @@ const TextTerms = () => {
           </p>
         </div>
         <div className="mt-5">
-          <h1 className="mt-4">4.0 User Content</h1>
-          <p className="mt-4" style={{ fontWeight: "600" }}>
+          <h1 className="mt-4">04. User Content</h1>
+          <p className="mt-4">
             The term "your content" means all materials (including text, images,
             audio, video, and audiovisual materials) that you submit to the site
             for any purpose.
           </p>
-          <p className="mt-4" style={{ fontWeight: "600" }}>
+          <p className="mt-4">
             By submitting your content, you grant us a worldwide, irrevocable,
             non-exclusive, royalty-free license to use, reproduce, modify,
             publish, and distribute your content in any media, now known or
@@ -69,7 +69,7 @@ const TextTerms = () => {
             rights and the right to take legal action against any infringement
             of these rights.
           </p>
-          <p className="mt-4" style={{ fontWeight: "600" }}>
+          <p className="mt-4" >
             Your content must not contain any defamatory, illegal, or
             inappropriate materials, and you must ensure that your content does
             not infringe copyright or other intellectual property rights or any
@@ -78,8 +78,8 @@ const TextTerms = () => {
         </div>
 
         <div className="mt-5">
-          <h1 className="mt-4">5.0 Legal Use of Your Data</h1>
-          <p className="mt-4" style={{ fontWeight: "600" }}>
+          <h1 className="mt-4">05. Legal Use of Your Data</h1>
+          <p className="mt-4" >
             We will only use your personal data when we have a legal basis for
             doing so. This may include:
           </p>
@@ -92,9 +92,9 @@ const TextTerms = () => {
 
         <div className="mt-5">
           <h1 className="mt-4">
-            6.0 Sharing Your Data with Trusted Third Parties
+            06. Sharing Your Data with Trusted Third Parties
           </h1>
-          <p className="mt-4" style={{ fontWeight: "600" }}>
+          <p className="mt-4">
             We may share your personal data with trusted third parties for
             operational purposes, such as providing support or marketing
             services. All such parties will be required to protect your
@@ -104,31 +104,26 @@ const TextTerms = () => {
 
         <div className="mt-5">
           <h1 className="mt-4">
-            7.0 International Transfer of Your Personal Data
+            07. International Transfer of Your Personal Data
           </h1>
-          <p className="mt-4" style={{ fontWeight: "600" }}>
+          <p className="mt-4" >
             If we transfer your data to countries outside the United Arab
             Emirates, we will ensure that your data is adequately protected in
             accordance with applicable standards.
           </p>
         </div>
         <div className="mt-5">
-          <h1 className="mt-4">8.0 Retention of Your Personal Data</h1>
-          <p className="mt-4" style={{ fontWeight: "600" }}>
+          <h1 className="mt-4">08. Retention of Your Personal Data</h1>
+          <p className="mt-4">
             We will retain your personal data only for as long as we need it to
             fulfill the purposes for which we collected it, or in accordance
             with legal obligations.
           </p>
         </div>
-
         <div className="mt-5">
-          <h1 className="mt-4">
-            We will retain your personal data only for as long as we need it to
-            fulfill the purposes for which we collected it, or in accordance
-            with legal obligations.
-          </h1>
-          <p className="mt-4" style={{ fontWeight: "600" }}>
-            You have the following rights regarding your personal information
+          <h1 className="mt-4">09. Your Rights</h1>
+          <p className="mt-4" >
+           You have the following rights regarding your personal information
           </p>
           <h6>-The right to access the data we hold;</h6>
           <h6>-The right to rectification if the information is inaccurate;</h6>
@@ -141,16 +136,18 @@ const TextTerms = () => {
           </h6>
         </div>
 
+      
+
 
 
         <div className="mt-5">
-          <h1 className="mt-4">10.0 Contact Us
+          <h1 className="mt-4">10. Contact Us
           </h1>
-          <p className="mt-4" style={{ fontWeight: "600" }}>
+          <p className="mt-4">
           If you have any questions regarding this privacy policy, you can contact us via:
 
           </p>
-          <p className="mt-4" style={{ fontWeight: "600" }}>
+          <p className="mt-4">
           Email: <a href="milto: info@stoture.com "> info@stoture.com </a>
 
           </p>

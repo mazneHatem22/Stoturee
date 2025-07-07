@@ -7,7 +7,7 @@ const Branding = () => {
         <Container>
             <Row>
                 <Col lg="6" md="12">
-                <h1>Branding Goes Beyond <br/> Just Design</h1>
+                <h1 style={{fontSize:"36px"}}>Branding Goes Beyond  Just Design</h1>
                 </Col>
                 <Col lg="6" md="12">
                 <p style={{fontWeight:"500"}}>At Stoture, we do not limit ourselves to providing creative designs; instead, we focus on creating a comprehensive brand experience that reflects a unique identity and a lasting story. We strive to build a visual identity that inspires, highlights your vision, and translates your aspirations into tangible reality.</p>

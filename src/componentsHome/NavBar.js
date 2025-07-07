@@ -63,8 +63,8 @@ function NavBar() {
                   </div>
                   <div className="mt-5">
                     <p >Get in touch</p>
-                    <h3 className="text-color">+97150 936 9323</h3>
-                    <h4 className="text-color">
+                    <h4 className="text-color">+97150 936 9323</h4>
+                    <h5 className="text-color">
                       {" "}
                       <a
                         className="text-color"
@@ -72,7 +72,7 @@ function NavBar() {
                       >
                         Stoture.media@gmail.com
                       </a>
-                    </h4>
+                    </h5>
                     <div className="mt-3">
                       <FaLinkedinIn
                         size={"20px"}
