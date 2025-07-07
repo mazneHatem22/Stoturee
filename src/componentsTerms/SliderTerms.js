@@ -1,12 +1,15 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import svg from "../images/Asset 12.svg"
+import { Container } from 'react-bootstrap'
 
 const SliderTerms = () => {
   return (
-    <div className='background-policy position-relative'>
-    <Link to={"/"}>
-    <div className='icon-about-policy'> <img className='' src={svg} alt=''/></div>
+    <div className='background-policy'>
+      <Container>
+         <Link to={"/"}>
+    <div className='arrow-style'> 
+      <img style={{backgroundColor:"#00000069" , borderRadius:"50px"}} src={svg} alt=''/></div>
     </Link>
     
     <div className='d-flex justify-content-center align-items-center h-100  about-text-groub'>
@@ -20,6 +23,9 @@ const SliderTerms = () => {
         </div>
         
     </div>
+
+      </Container>
+   
 </div>
   )
 }

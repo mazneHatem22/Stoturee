@@ -1,15 +1,18 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import svg from "../images2/Asset 2.svg"
+import { Container } from 'react-bootstrap'
 
 const SliderContact = () => {
   return (
-    <div className='background-conatct position-relative'>
-        <Link to={"/"}>
-        <div className='icon-about'> <img className='' src={svg} alt=''/></div>
+    <div className='background-conatct'>
+      <Container>
+         <Link to={"/"}>
+        <div className='arrow-style'> 
+          <img className='' src={svg} alt=''/></div>
         </Link>
         
-        <div className='d-flex justify-content-center align-items-center h-100 about-text-groub'>
+        <div className='d-flex justify-content-center align-items-center about-text-groub'>
             <div>
             <h1 className='text-center about-text'>Contact us</h1>
             <p className='text-center mt-3 p-text text-work'>Were here to dive into your brands journey and
@@ -20,6 +23,9 @@ const SliderContact = () => {
             </div>
             
         </div>
+
+      </Container>
+       
     </div>
   )
 }

@@ -164,9 +164,7 @@ body .navbar {
   font-size: 50px;
   font-weight: 400;
 }
-.get {
-  font-weight: bold;
-}
+
 
 .navbar-toggler {
   border-style: none !important;
@@ -210,7 +208,7 @@ body .navbar {
   cursor: pointer;
 }
 
-.background {
+.background-about {
   background-image: url(./images/Stoture\ Web\ work\ 2.png);
   background-repeat: no-repeat;
   background-size: cover;
@@ -219,12 +217,12 @@ body .navbar {
 }
 
 .about-text {
-  font-size: 100px;
+  font-size: 90px;
   color: white;
 }
 
 .p-text {
-  font-size: 20px;
+  font-size: 15px;
   color: white;
 }
 
@@ -337,10 +335,7 @@ body .navbar {
   height: 100vh;
 }
 
-.get , .num , .new{
-  border-bottom: 1px solid #c8c8c8;
-  
-}
+
 
 .slider-fearturead img{
 width: 100%;
@@ -430,8 +425,6 @@ border-radius: 15px;
 @font-face {
   font-family: 'Cairo';
   src: url('./Fonts/NeueHaasGroteskDisplay-Medium.otf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
 }
 
 /* استخدام الخط */
@@ -441,4 +434,11 @@ body {
 
 .width-text{
   width: 400px;
+}
+.size-text p{
+  font-size: 15px;
+}
+.arrow-style img{
+  margin-top: 140px;
+  width: 60px;
 }
