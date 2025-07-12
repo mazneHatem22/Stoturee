@@ -3,7 +3,7 @@ body {
   overflow-x: hidden;
 }
 
-a{
+a {
   text-decoration: none;
 }
 
@@ -123,9 +123,9 @@ body .navbar {
   cursor: pointer;
   z-index: 1000;
   transition: opacity 0.4s, transform 0.4s ease-in-out;
-  opacity: 0 ;
-  transform: scale(0) ;
-  pointer-events: none ; /* لتعطيل التفاعل عندما يكون مخفيًا */
+  opacity: 0;
+  transform: scale(0);
+  pointer-events: none; /* لتعطيل التفاعل عندما يكون مخفيًا */
   width: 100px;
 }
 
@@ -146,7 +146,7 @@ body .navbar {
   right: 13%;
 }
 .h-nav img {
- width: 45px;
+  width: 45px;
 }
 .work {
   transform: translateX(-30px);
@@ -159,17 +159,19 @@ body .navbar {
   color: black;
   cursor: pointer;
 }
+.active-link {
+  color: black;
+}
 
 .toggle-text h1 {
   font-size: 50px;
   font-weight: 400;
 }
 
-
 .navbar-toggler {
   border-style: none !important;
 }
-.navbar-toggler:focus{
+.navbar-toggler:focus {
   box-shadow: none;
 }
 
@@ -231,7 +233,8 @@ body .navbar {
   background-position-y: 50%;
 }
 
-.about-text , .project-text {
+.about-text,
+.project-text {
   font-size: 90px;
   color: white;
 }
@@ -350,21 +353,14 @@ body .navbar {
   height: 100vh;
 }
 
-
-
-.slider-fearturead img{
-width: 100%;
-border-radius: 15px;
-
-
+.slider-fearturead img {
+  width: 100%;
+  border-radius: 15px;
 }
 
 .feartured-groub .slick-next {
   right: -3%;
   top: -15%;
- 
-
- 
 }
 
 .feartured-groub .slick-prev {
@@ -398,10 +394,9 @@ border-radius: 15px;
   background-image: url(./images2/Asset\ 2.svg);
 } */
 
-.button-view{
+.button-view {
   transform: translateX(-50px);
 }
-
 
 .background-policy {
   background-image: url(./images2/Stoture-Privacy-Policy.jpg);
@@ -411,9 +406,6 @@ border-radius: 15px;
   height: 100vh;
 }
 
-
-
-
 .icon-about-policy {
   position: absolute;
   top: 150px;
@@ -422,49 +414,49 @@ border-radius: 15px;
 .icon-about-policy img {
   width: 20%;
   border-radius: 50px;
-    background-color: #00000069;
+  background-color: #00000069;
 }
 
-.footer-style{
+.footer-style {
   padding: 15px;
-    height: 40vh;
-    background-color: #e8e8e8;
+  height: 40vh;
+  background-color: #e8e8e8;
 }
 
-.footer-col{
-    align-items: end;
-    height: 100%;
-    display: flex;
+.footer-col {
+  align-items: end;
+  height: 100%;
+  display: flex;
 }
 
 @font-face {
-  font-family: 'Cairo';
-  src: url('./Fonts/NeueHaasGroteskDisplay-Medium.otf') format('truetype');
+  font-family: "Cairo";
+  src: url("./Fonts/NeueHaasGroteskDisplay-Medium.otf") format("truetype");
 }
 
 /* استخدام الخط */
 body {
-  font-family: 'Cairo', sans-serif;
+  font-family: "Cairo", sans-serif;
 }
 
-.width-text{
+.width-text {
   width: 400px;
 }
-.size-text p{
+.size-text p {
   font-size: 15px;
 }
-.arrow-style{
+.arrow-style {
   margin-top: 140px;
   width: 60px;
 }
-.paragraph-home{
+.paragraph-home {
   padding: 10px;
 }
-.margin-style{
+.margin-style {
   margin-top: 67px;
 }
 .fixed-height-img {
-  height: 250px; 
+  height: 250px;
   object-fit: cover;
   width: 100%;
 }
