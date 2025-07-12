@@ -1,5 +1,5 @@
 import React from "react";
-import { Link, useNavigate, useLocation } from "react-router-dom";
+import { useNavigate, useLocation } from "react-router-dom";
 import svg from "../images/Asset 12.svg";
 import { Container } from "react-bootstrap";
 

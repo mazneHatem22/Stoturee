@@ -1,8 +1,7 @@
-import React, { useEffect } from "react";
-import { useTranslation } from "react-i18next";
+import React from "react";
 import ScrollTop from "./componentsHome/ScrollTop";
 import Home from "./pages/Home";
-import { BrowserRouter, Route, Routes, useLocation, Link } from "react-router-dom";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import AboutUs from "./pages/AboutUs";
 import Work from "./pages/Work";
 import CemartGroup from "./pages/CemartGroup";
@@ -30,6 +29,7 @@ function App() {
   return (
     
     <BrowserRouter>
+    <ScrollTop />
     <NavBar/>
     <Routes>
     <Route path="/" element={<Home />}/>

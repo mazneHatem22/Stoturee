@@ -4,7 +4,6 @@ import InTouch from '../componentsContact/InTouch'
 import Feartured from '../componentsContact/Feartured'
 import Step from '../componentsContact/Step'
 import Footer from '../componentsHome/Footer'
-import ScrollTop from '../componentsHome/ScrollTop'
 
 const ContactUs = () => {
   return (
@@ -13,7 +12,6 @@ const ContactUs = () => {
         <InTouch/>
         <Feartured/>
         <Step/>
-        <ScrollTop/>
         <Footer/>
     </div>
   )

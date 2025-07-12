@@ -51,7 +51,7 @@ export default function Logo() {
     <div className="mt-5">
       <Container>
         <Row className="m-0">
-        <Col sm="12" data-aos="fade-left" data-aos-duration="2000">
+        <Col sm="12">
           <div className="mt-3">
             <h2 style={{ fontWeight: "bold" }}>Our Clints</h2>
           </div>
