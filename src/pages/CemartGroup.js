@@ -8,7 +8,6 @@ import ScrollTop from '../componentsHome/ScrollTop'
 const CemartGroup = () => {
   return (
     <div>
-       
         <SliderCemart/>
         <ProjectCermart/>
         <PhotoCemart/>

@@ -3,10 +3,11 @@ import photo1 from "../images2/Home-Page-1.jpg";
 import photo2 from "../images2/Home-Page-2.jpg";
 import photo3 from "../images2/Home-Page-3.jpg";
 import photo4 from "../images2/Home-Page-4.jpg";
+import ground from "../images2/Group.png";
 
 import Flickity from "react-flickity-component";
 import "../flickity.css";
-import { Button } from "react-bootstrap";
+import { Button, Col, Container, Row } from "react-bootstrap";
 const flickityOptions = {
   initialIndex: 0,
   wrapAround: false,
@@ -45,6 +46,7 @@ const FlickityBackgroundExample = () => {
     },
   ];
   return (
+    <>
     <Flickity 
       className={"carousel"} // Optional carousel class
       elementType={"div"} // Set element type (default 'div')
@@ -64,15 +66,29 @@ const FlickityBackgroundExample = () => {
         >
           {/* You can add overlay content if needed */}
           <div className={'carousel-content' + " " + 'carousel' + index}>
-            <div className="carousel-text">
-            <h1 className="step">{slide.heading}</h1>
+            <Container>
+               <div className="carousel-text">
+            <h1 className="step mb-1">{slide.heading}</h1>
             <p className="paragraph-home">{slide.paragraph}</p>
             </div>
+
+            </Container>
+           
             <Button className="click" variant="outline-light">{slide.buttonText}</Button>{' '}
           </div>
         </div>
       ))}
     </Flickity>
+    <Container className="mt-5">
+      <Row>
+        <Col lg={12} data-aos="fade-up"
+     data-aos-anchor-placement="top-bottom">
+        <img className="w-100" src={ground} alt="Ground"/>
+        </Col>
+      </Row>
+    </Container>
+    </>
+    
   );
 };
 

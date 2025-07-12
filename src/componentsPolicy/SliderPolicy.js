@@ -8,7 +8,7 @@ const SliderPolicy = () => {
     <div className='background-policy'>
       <Container>
         <Link to={"/"}>
-    <div className='arrow-style'> <img style={{backgroundColor:"#00000069" , borderRadius:"50px"}} src={svg} alt=''/></div>
+        <img className='arrow-style'  style={{backgroundColor:"#00000069" , borderRadius:"50px"}} src={svg} alt=''/>
     </Link>
     
     <div className='d-flex justify-content-center align-items-center  about-text-groub'>

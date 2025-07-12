@@ -10,43 +10,48 @@ import asset7 from "../images2/Asset 17.svg";
 import { Col, Container, Row } from "react-bootstrap";
 
 export default function Logo() {
-  var settings = {
-    dots: true,
-    infinite: true,
-    speed: 500,
-    slidesToShow: 7,
-    slidesToScroll: 1,
-    centerMode: true,
-    
-    responsive: [
-      {
-        breakpoint: 1024,
-        settings: {
-          slidesToShow: 3,
-          slidesToScroll: 3,
-        }
-      },
-      {
-        breakpoint: 600,
-        settings: {
-          slidesToShow: 2,
-          slidesToScroll: 2,
-        }
-      },
-      {
-        breakpoint: 480,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1
-        }
+ var settings = {
+  dots: true,
+  infinite: true,
+  speed: 500,
+  slidesToShow: 7,
+  slidesToScroll: 1,
+  centerMode: true,
+
+  autoplay: true,
+  autoplaySpeed: 2000,
+  pauseOnHover: true,
+
+  responsive: [
+    {
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 3,
+        slidesToScroll: 3,
       }
-    ]
-  };
+    },
+    {
+      breakpoint: 600,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 2,
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    }
+  ]
+};
+
   return (
     <div className="mt-5">
       <Container>
         <Row className="m-0">
-        <Col sm="12">
+        <Col sm="12" data-aos="fade-left" data-aos-duration="2000">
           <div className="mt-3">
             <h2 style={{ fontWeight: "bold" }}>Our Clints</h2>
           </div>

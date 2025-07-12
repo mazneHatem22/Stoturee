@@ -126,6 +126,17 @@ https://flickity.metafizzy.co
     left: 10px;
    
   }
+  .feartured-groub .slick-prev {
+    top: -15%;
+    left: 98%;
+    display: none !important;
+}
+.feartured-groub .slick-next {
+    right: -3%;
+    top: -15%;
+     display: none !important;
+}
+
   
   .flickity-prev-next-button .flickity-button-icon {
     position: absolute;
@@ -194,8 +205,20 @@ https://flickity.metafizzy.co
 .step{
  word-wrap: break-word;
   font-size: 80px;
-  font-weight: 600;
   padding: 10px;
 }
 
+
+
+
+.slick-dots {
+    position: absolute;
+    bottom: -40px !important;
+    display: block;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+}
  

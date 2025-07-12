@@ -8,8 +8,7 @@ const SliderContact = () => {
     <div className='background-conatct'>
       <Container>
          <Link to={"/"}>
-        <div className='arrow-style'> 
-          <img className='' src={svg} alt=''/></div>
+       <img className='arrow-style'  src={svg} alt=''/>
         </Link>
         
         <div className='d-flex justify-content-center align-items-center about-text-groub'>

@@ -215,8 +215,23 @@ body .navbar {
   width: 100%;
   height: 100vh;
 }
+.background-promo {
+  background-image: url(./images2/coverPromo.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+}
+.background-highlights {
+  background-image: url(./images2/Sport\ ph\ 1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  background-position-y: 50%;
+}
 
-.about-text {
+.about-text , .project-text {
   font-size: 90px;
   color: white;
 }
@@ -438,7 +453,18 @@ body {
 .size-text p{
   font-size: 15px;
 }
-.arrow-style img{
+.arrow-style{
   margin-top: 140px;
   width: 60px;
+}
+.paragraph-home{
+  padding: 10px;
+}
+.margin-style{
+  margin-top: 67px;
+}
+.fixed-height-img {
+  height: 250px; 
+  object-fit: cover;
+  width: 100%;
 }

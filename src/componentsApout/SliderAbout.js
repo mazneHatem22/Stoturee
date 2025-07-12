@@ -6,13 +6,12 @@ import { Container } from 'react-bootstrap'
 const SliderAbout = () => {
   return (
     <div className='background-about'>
-      <Container className='h-100'>
+      <Container className='h-100' data-aos="fade-down" data-aos-duration="2000">
          <Link to={"/"}>
-        <div className='arrow-style'> 
-          <img  src={svg} alt=''/></div>
+        <img className='arrow-style'  src={svg} alt=''/>
         </Link>
         
-        <div className='d-flex justify-content-center align-items-center about-text-groub'>
+        <div className='d-flex justify-content-center align-items-center about-text-groub' >
             <div>
             <h1 className='text-center about-text'>About Us</h1>
             <p className='text-center mt-3 p-text'>Stoture is a marketing and visual content production company 

@@ -13,7 +13,6 @@ import ScrollTop from '../componentsHome/ScrollTop'
 const AboutUs = () => {
   return (
     <div>
-        
         <SliderAbout/>
         <Branding/>
         <OurBranding/>

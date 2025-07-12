@@ -8,7 +8,8 @@ const OurBranding = () => {
       <div className="mt-5">
         <Container>
           <Row>
-            <Col lg="6" md="12" className="mt-5">
+            <Col lg="6" md="12" className="mt-5" data-aos="fade-up"
+     data-aos-duration="2000">
               <h1 >Our Brand Story</h1>
               <div className="width-text">
                  <p className="mt-4">
@@ -32,7 +33,8 @@ const OurBranding = () => {
               </div>
              
             </Col>
-            <Col  lg="6" md="12" className="mt-5 ">
+            <Col  lg="6" md="12" className="mt-5" data-aos="fade-down"
+     data-aos-duration="2000">
             <img style={{borderTopLeftRadius:"20px" ,borderTopRightRadius:"20px"}}  className="bg-white w-100 " src={story} alt=""/>
 
             </Col>

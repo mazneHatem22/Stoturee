@@ -23,11 +23,11 @@ const Services = () => {
     <div className='mt-5 services'>
       <Container>
         <Row>
-          <Col lg="6" md="12" className='mt-5'>
+          <Col lg="6" md="12" className='mt-5' data-aos="fade-right" data-aos-duration="2000">
             <h4>Services</h4>
             <img style={{ borderRadius: "20px", width: "85%" }} className='mt-3' src={imageSrc} alt='' />
           </Col>
-          <Col lg="6" md="12" className='mt-5'>
+          <Col lg="6" md="12" className='mt-5' data-aos="fade-left" data-aos-duration="2000">
             <h1 
               onMouseEnter={() => handleMouseEnter(png1)}
               onMouseLeave={handleMouseLeave}

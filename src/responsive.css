@@ -17,7 +17,7 @@
       
       }
       .text-font{
-        font-size: 10px !important;
+        font-size: 12px !important;
       }
       .email{
         transform: translateX(10px);
@@ -31,8 +31,11 @@
       .footer-png{
         height: 112vh;
       }  
-      .background-about , .background-conatct , .background-policy {
-        height: 70vh;
+      .background-about 
+      , .background-conatct 
+      , .background-policy 
+      , .background-promo {
+        height: 100vh;
 }
 }
 
@@ -54,9 +57,7 @@
       .about-text-groub h1{
         font-size: 40px;
       }
-      .about-text{
-        font-size: 15px;
-      }
+     
       .icon-about{
         position: absolute;
         top: 150px;
@@ -96,5 +97,20 @@
       margin-top: 100px;
       width: 40px;
 }
+.margin-style{
+  margin-top: 10px !important;
+}
+.promo-text{
+  font-size: 11px;
+}
 
 }
+@media (max-width: 992px) {
+  .margin-style {
+    margin-top: 28px;
+}
+.project-text{
+        font-size: 50px;
+      }
+}
+  

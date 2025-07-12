@@ -24,7 +24,7 @@ function NavBar() {
               <img className="w-50" src={stoture} alt="" />
             </Navbar.Brand>
             <div className="d-flex align-items-center gap-4">
-               <div className="text-center d-flex flex-column">
+               <div style={{marginTop:"10px"}} className="text-center gap-2 d-flex">
               <div>
                 <img style={{width:"40px"}} className="chat" src={chat} alt="" />
               </div>

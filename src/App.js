@@ -10,6 +10,8 @@ import ContactUs from "./pages/ContactUs";
 import Policy from "./pages/Policy";
 import Terms from "./pages/Terms";
 import NavBar from "./componentsHome/NavBar";
+import Project1 from "./pages/Projects/Project1";
+import Project2 from "./pages/Projects/Project2";
 
 
 function App() {
@@ -34,6 +36,8 @@ function App() {
     <Route path="/about" element={<AboutUs />}/>
     <Route path="/work" element={<Work />}/>
     <Route path="/cemart" element={<CemartGroup />}/>
+    <Route path="/PromoContent-DWOC" element={<Project1/>}/>
+    <Route path="/DOWC-Highlights" element={<Project2/>}/>
     <Route path="/contact" element={<ContactUs />}/>
     <Route path="/policy" element={<Policy />}/>
     <Route path="/terms" element={<Terms />}/>
