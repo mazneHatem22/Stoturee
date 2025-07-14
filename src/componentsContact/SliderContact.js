@@ -8,7 +8,8 @@ const SliderContact = () => {
   const navigate = useNavigate();
   return (
     <div className="background-conatct">
-      <Container>
+      <Container data-aos="fade-down"
+        data-aos-duration="2000">
         {location.pathname !== "/" && (
           <img
             className="arrow-style"

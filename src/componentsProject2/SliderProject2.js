@@ -8,7 +8,8 @@ const SliderProject2 = () => {
   const navigate = useNavigate();
   return (
     <div className="background-highlights position-relative">
-      <Container className="h-100">
+      <Container className="h-100" data-aos="fade-down"
+        data-aos-duration="2000">
         {location.pathname !== "/" && (
           <img
             className="arrow-style"

@@ -12,7 +12,8 @@ function VidosProject2() {
   return (
     <>
     <Container className='mt-5'>
-        <div className='row'>
+        <div className='row' data-aos="fade-down"
+        data-aos-duration="2000">
             <div className='col-lg-6 col-md-6 col-12 mt-3'>
                 <div className='h-100'>
                     <img className='w-100 h-100' src={Highlights1} alt=''/>
