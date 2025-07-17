@@ -23,9 +23,9 @@ const Services = () => {
     <div className='mt-5 services'>
       <Container>
         <Row>
+          <h3 className='mb-1'>Services</h3>
           <Col lg="6" md="12" className='mt-5' data-aos="fade-right" data-aos-duration="2000">
-            <h4>Services</h4>
-            <img style={{ borderRadius: "20px", width: "85%" }} className='mt-3' src={imageSrc} alt='' />
+            <img style={{ borderRadius: "20px", width: "100%" }} className='mt-3' src={imageSrc} alt='' />
           </Col>
           <Col lg="6" md="12" className='mt-5' data-aos="fade-left" data-aos-duration="2000">
             <h1 
