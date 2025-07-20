@@ -11,6 +11,8 @@ import Terms from "./pages/Terms";
 import NavBar from "./componentsHome/NavBar";
 import Project1 from "./pages/Projects/Project1";
 import Project2 from "./pages/Projects/Project2";
+import Project4 from "./pages/Projects/Project4";
+import Footer from "./componentsHome/Footer";
 
 
 function App() {
@@ -38,10 +40,12 @@ function App() {
     <Route path="/cemart" element={<CemartGroup />}/>
     <Route path="/PromoContent-DWOC" element={<Project1/>}/>
     <Route path="/DOWC-Highlights" element={<Project2/>}/>
+    <Route path="/Cemart-Documentary" element={<Project4/>}/>
     <Route path="/contact" element={<ContactUs />}/>
     <Route path="/policy" element={<Policy />}/>
     <Route path="/terms" element={<Terms />}/>
     </Routes>
+    <Footer />
     </BrowserRouter>
   );
 }

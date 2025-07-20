@@ -12,7 +12,7 @@ const OurGroup = () => {
     <div className="mt-5">
       <Container>
         <Row>
-          <Col lg="6" md="12" className="mt-3" data-aos="fade-down-right" data-aos-duration="2000" >
+          <Col lg="6" md="12" className="mt-3" data-aos="zoom-in" data-aos-duration="1000">
           <Link to={"/PromoContent-DWOC"}>
            <div style={{color: "black"}}>
              <img
@@ -29,7 +29,7 @@ const OurGroup = () => {
           </Link>
          
           </Col>
-          <Col lg="6" md="12" className="mt-3" data-aos="fade-down-left" data-aos-duration="2000">
+          <Col lg="6" md="12" className="mt-3" data-aos="zoom-in" data-aos-duration="1000">
           <Link to={"/DOWC-Highlights"}>
             <div style={{color: "black"}}>
              <img
@@ -45,7 +45,7 @@ const OurGroup = () => {
           </Link>
         
           </Col>
-          <Col lg="6" md="12" className="mt-3" data-aos="fade-down-right" data-aos-duration="2000">
+          <Col lg="6" md="12" className="mt-3" data-aos="zoom-in" data-aos-duration="2000">
           <div>
              <img
                 style={{ borderRadius: "20px" }}
@@ -58,8 +58,9 @@ const OurGroup = () => {
 
           </div>
           </Col>
-          <Col lg="6" md="12" className="mt-3" data-aos="fade-down-left" data-aos-duration="2000">
-          <div>
+          <Col lg="6" md="12" className="mt-3" data-aos="zoom-in" data-aos-duration="2000">
+          <Link to={"/Cemart-Documentary"}>
+           <div style={{color: "black"}}>
              <img
                 style={{ borderRadius: "20px" }}
                 className="w-100"
@@ -70,6 +71,8 @@ const OurGroup = () => {
               <p>Video Production</p>
 
           </div>
+          </Link>
+         
           </Col>
          
         </Row>

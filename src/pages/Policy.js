@@ -10,7 +10,6 @@ const Policy = () => {
         <SliderPolicy/>
         <TextPolicy/>
         <StepPolicy/>
-        <Footer/>
     </div>
   )
 }

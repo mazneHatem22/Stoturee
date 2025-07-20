@@ -14,7 +14,6 @@ const AboutUs = () => {
       <OurBranding />
       <Logo />
       <Us />
-      <Footer />
     </div>
   );
 };

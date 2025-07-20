@@ -10,16 +10,16 @@ const Footer = () => {
             <div className='col-lg-9'>
               <div className='row '>
                 <div className='col-lg-3'>
-                  <h5>Linkedin</h5>
+                  <h5 className='fw-bold'>Linkedin</h5>
                 </div>
                 <div className='col-lg-3'>
-                  <h5>Instagram</h5>
+                  <h5 className='fw-bold'>Instagram</h5>
                 </div>
                 <div className='col-lg-3'>
-                  <h5>Behance</h5>
+                  <h5 className='fw-bold'>Behance</h5>
                 </div>
                 <div className='col-lg-3'>
-                  <h5>Facebook</h5>
+                  <h5 className='fw-bold'>Facebook</h5>
                 </div>
               </div>
             </div>

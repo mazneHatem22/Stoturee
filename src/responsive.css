@@ -55,7 +55,7 @@
         transform: translateX(-5px);
       }
       .about-text-groub h1{
-        font-size: 40px;
+        font-size: 70px;
       }
      
       .icon-about{
@@ -84,9 +84,9 @@
       .background2{
         height: 90vh;
       }
-      .background2 h1{
-      font-size: 40px;
-      }
+      /* .background2 h1{
+      font-size: 70px;
+      } */
       .project-cermart{
         transform: translateY(-20%);
       }
@@ -102,6 +102,13 @@
 }
 .promo-text{
   font-size: 11px;
+}
+.arrow-style {
+    margin-top: 140px;
+    width: 45px;
+}
+.card-style{
+  padding: 30px 10px;
 }
 
 }

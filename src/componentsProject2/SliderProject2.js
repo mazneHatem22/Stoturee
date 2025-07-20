@@ -21,8 +21,7 @@ const SliderProject2 = () => {
         )}
 
         <div
-          className="d-flex justify-content-center align-items-center about-text-groub  position-absolute"
-          style={{ width: "88%", transform: "translateY(50%)" }}
+          className="mt-4" 
         >
           <div>
             <h1 className="text-center project-text">DOWC Highlights</h1>
@@ -34,27 +33,22 @@ const SliderProject2 = () => {
           </div>
         </div>
         <div
-          className="mt-5 position-absolute"
-          style={{
-            backgroundColor: "#ffffff",
-            padding: "30px ",
-            width: "88%",
-            bottom: "2px",
-            left: "50%",
-            transform: "translateX(-50%)",
-          }}
-        >
-          <div className=" d-flex justify-content-between text-center align-items-center promo-text text-black">
-            <p className="mb-0">
+          className="mt-5 position-absolute card-style">
+           <div className=" d-flex justify-content-between text-center align-items-center promo-text">
+            <p className="mb-0 " style={{ color: "#606060" }}>
               {" "}
-              <span style={{ color: "#606060" }}>CLIENT: </span>DWOC
+              CLIENT: 
+              <span className="fw-bold text-black ms-2">DWOC</span>
             </p>
-            <p className="mb-0">
-              <span style={{ color: "#606060" }}>YEAR: </span> 2024
-            </p>
-            <p className="mb-0">
+           <p className="mb-0 " style={{ color: "#606060" }}>
               {" "}
-              <span style={{ color: "#606060" }}>Project: </span> Event Coverage
+             YEAR: 
+              <span className="fw-bold text-black ms-2"> 2024</span>
+            </p>
+            <p className="mb-0 " style={{ color: "#606060" }}>
+              {" "}
+             Project:
+              <span className="fw-bold text-black ms-2">Event Coverage</span>
             </p>
           </div>
         </div>

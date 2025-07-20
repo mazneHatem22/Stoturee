@@ -1,6 +1,6 @@
 import React from "react";
 import { Container } from "react-bootstrap";
-import Us from "../images2/Asset 111.svg"
+
 
 const StepPolicy = () => {
   return (
@@ -9,7 +9,11 @@ const StepPolicy = () => {
         <h1 style={{ color: "#08101d", fontWeight: "700" }}>
           Redady to take your <br /> creative step to future
         </h1>
-        <img className="mt-3" style={{width:"170px"}} src={Us} alt=""/>
+       <div className="mt-3">
+        <button className="btn-policy">
+          Contact Us
+        </button>
+       </div>
       </Container>
     </div>
   );

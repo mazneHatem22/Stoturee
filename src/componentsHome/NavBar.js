@@ -116,7 +116,7 @@ function NavBar() {
                       </h1>
                     </Link>
                   </div>
-                  <div className="mt-5">
+                  <div className="mt-4">
                     <p>Get in touch</p>
                     <h4 className="text-color">+97150 936 9323</h4>
                     <h5 className="text-color">

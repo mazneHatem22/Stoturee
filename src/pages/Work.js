@@ -12,7 +12,6 @@ const Work = () => {
       <OurGroup/>
       <Feartured/>
       <Us/>
-      <Footer/>
     </div>
   )
 }

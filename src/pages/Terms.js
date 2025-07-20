@@ -11,7 +11,6 @@ const Terms = () => {
         <SliderTerms/>
         <TextTerms/>
         <StepPolicy/>
-        <Footer/>
     </div>
   )
 }

@@ -11,8 +11,6 @@ const Project2 = () => {
       <SliderProject2 />
       <VidosProject2 />
       <Us />
-      <Footer />
-      <ScrollTop />
     </>
   );
 };

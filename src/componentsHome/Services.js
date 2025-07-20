@@ -22,12 +22,12 @@ const Services = () => {
   return (
     <div className='mt-5 services'>
       <Container>
-        <Row>
+        <Row data-aos="fade-up"  data-aos-duration="1000">
           <h3 className='mb-1'>Services</h3>
-          <Col lg="6" md="12" className='mt-5' data-aos="fade-right" data-aos-duration="2000">
+          <Col lg="6" md="12" className='mt-5' >
             <img style={{ borderRadius: "20px", width: "100%" }} className='mt-3' src={imageSrc} alt='' />
           </Col>
-          <Col lg="6" md="12" className='mt-5' data-aos="fade-left" data-aos-duration="2000">
+          <Col lg="6" md="12" className='mt-5' >
             <h1 
               onMouseEnter={() => handleMouseEnter(png1)}
               onMouseLeave={handleMouseLeave}

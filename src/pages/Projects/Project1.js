@@ -11,8 +11,6 @@ const Promo = () => {
     <SliderPromoContent/>
     <PromoVidos/>
      <Us/>
-      <Footer/>
-      <ScrollTop/>
     </>
   )
 }

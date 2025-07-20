@@ -12,7 +12,6 @@ const ContactUs = () => {
         <InTouch/>
         <Feartured/>
         <Step/>
-        <Footer/>
     </div>
   )
 }

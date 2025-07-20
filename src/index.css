@@ -223,6 +223,7 @@ body .navbar {
   background-size: cover;
   width: 100%;
   height: 100vh;
+  background-position-y: 50%;
 }
 .background-highlights {
   background-image: url(./images2/Sport\ ph\ 1.jpg);
@@ -231,6 +232,23 @@ body .navbar {
   width: 100%;
   height: 100vh;
   background-position-y: 50%;
+}
+.background-documentary {
+  background-image: url(./images2/Stoture\ Web\ work\ 2-07-2\ \(1\).png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+}
+.background-documentary::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+ 
 }
 
 .about-text,
@@ -431,7 +449,8 @@ body .navbar {
 
 @font-face {
   font-family: "Cairo";
-  src: url("./Fonts/NeueHaasGroteskDisplay-Medium.otf") format("truetype");
+  src: url("./Fonts/NeueHaasGroteskDisplay-Reg.otf") format("truetype");
+  
 }
 
 /* استخدام الخط */
@@ -459,4 +478,24 @@ body {
   height: 250px;
   object-fit: cover;
   width: 100%;
+}
+
+.btn-policy{
+  background-color: #08101d;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 28px;
+    width: 200px;
+    border: none;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.card-style{
+  background-color: #ffffff;
+  padding: 30px;
+  width: 88%;
+  bottom: 2px;
+  left:50% ;
+  transform: translateX(-50%);
 }

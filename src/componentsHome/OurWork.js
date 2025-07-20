@@ -23,11 +23,10 @@ const OurWork = () => {
 
   return (
     <Container>
-      <Row>
+      <Row data-aos="fade-up"  data-aos-duration="1000">
         <div
           className="d-flex justify-content-between align-items-center mt-5 "
-          data-aos="fade-up"
-          data-aos-duration="1000"
+         
         >
           <div>
             <h3>Our Work</h3>
@@ -47,8 +46,7 @@ const OurWork = () => {
           md="4"
           sm="12"
           className="mt-4"
-          data-aos="fade-right"
-          data-aos-duration="2000"
+          
         >
           <img
             style={{ borderRadius: "20px" }}
@@ -68,8 +66,7 @@ const OurWork = () => {
           md="4"
           sm="12"
           className="mt-4"
-          data-aos="fade-up"
-          data-aos-duration="2000"
+         
         >
           <img
             style={{ borderRadius: "20px" }}
@@ -83,8 +80,7 @@ const OurWork = () => {
           md="4"
           sm="12"
           className="mt-4"
-          data-aos="fade-left"
-          data-aos-duration="2000"
+         
         >
           <img
             style={{ borderRadius: "20px" }}
