@@ -516,5 +516,35 @@ body {
 .btn-feartured:hover {
   background-color: white;
   color: rgb(30, 39, 52);
- 
+}
+
+
+.facebook-color , .behance-color ,.instagrm-color ,.linkedin-color{
+  color: #808080;
+  cursor: pointer;
+  padding: 5px;
+  border-radius: 4px;
+  transition: 
+    color 0.5s ease,
+     background-color 0.5s ease,
+    transform 0.5s ease,
+}
+.facebook-color:hover {
+  background-color: #1877F2; 
+  color: white;
+}
+
+.behance-color:hover {
+  background-color: #1769FF; 
+  color: white;
+}
+
+.instagrm-color:hover {
+  background-color: #E1306C; 
+  color: white;
+}
+
+.linkedin-color:hover {
+  background-color: #0A66C2; 
+  color: white;
 }

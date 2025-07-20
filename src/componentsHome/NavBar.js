@@ -130,24 +130,20 @@ function NavBar() {
                     </h5>
                     <div className="mt-3">
                       <FaLinkedinIn
-                        size={"20px"}
-                        style={{ color: "#808080" }}
-                        className="mx-3"
+                        size={"30px"}
+                        className="mx-3 linkedin-color"
                       />
                       <FaInstagram
-                        size={"20px"}
-                        style={{ color: "#808080" }}
-                        className="mx-3 "
+                        size={"30px"}
+                        className="mx-3 instagrm-color"
                       />
                       <FaBehance
-                        size={"20px"}
-                        style={{ color: "#808080" }}
-                        className="mx-3 "
+                        size={"30px"}
+                        className="mx-3 behance-color"
                       />
                       <FaFacebookF
-                        size={"20px"}
-                        style={{ color: "#808080" }}
-                        className="mx-3"
+                        size={"30px"}
+                        className="mx-3 facebook-color"
                       />
                     </div>
                     <Button className="click2 mt-4" variant="outline-dark">
