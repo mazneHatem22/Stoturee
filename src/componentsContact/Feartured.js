@@ -68,12 +68,9 @@ const Feartured = () => {
           </div>
           <div className="col-lg-3 col-md-6 col-12">
               <div className="d-flex align-items-center gap-3 mt-2">
-            <Button
-              style={{ borderRadius: "20px", width: "100px", backgroundColor:"#1e2734" }}
-              variant="outline-light"
-            >
+            <button className="btn-feartured" variant="outline-light">
               View All
-            </Button>
+            </button>
 
            
             <div className="d-flex gap-2 align-items-center">

@@ -29,12 +29,12 @@ const OurWork = () => {
          
         >
           <div>
-            <h3>Our Work</h3>
+            <h3 className="fw-bold">Our Work</h3>
           </div>
           <div>
             <Button
               style={{ fontSize: "15px" }}
-              className="click2 mt-4"
+              className="click2 fw-bold"
               variant="outline-dark"
             >
               View All
