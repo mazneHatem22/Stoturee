@@ -109,7 +109,7 @@ const Feartured = () => {
 
         <Slider ref={sliderRef} className="mt-3 slider-fearturead" {...settings}>
           <div>
-            <img src={Slid1} alt="" style={{ padding: "0 10px" }} />
+             <img src={Slid2} alt="" style={{ padding: "0 10px" }} />
             <div className="mt-3" style={{ padding: "0 10px" }}>
               <h4 className="mb-0">Cemart</h4>
               <p style={{ fontSize: "13px" }}>Brand Identity Design</p>
@@ -117,7 +117,7 @@ const Feartured = () => {
           </div>
 
           <div>
-            <img src={Slid2} alt="" style={{ padding: "0 10px" }} />
+            <img src={Slid1} alt="" style={{ padding: "0 10px" }} />
             <div className="mt-3" style={{ padding: "0 10px" }}>
               <h4 className="mb-0">ICC</h4>
               <p style={{ fontSize: "13px" }}>Brand Identity Design</p>
