@@ -3,11 +3,11 @@ import { Container } from "react-bootstrap";
 import { useNavigate, useLocation } from "react-router-dom";
 import svg from "../images/Asset 12.svg";
 
-const SliderICCidentity = () => {
+const SliderExecutiveIOffice = () => {
   const location = useLocation();
   const navigate = useNavigate();
   return (
-    <div className="background-iCCidentity position-relative">
+    <div className="background-executiveIOffice position-relative">
       <Container
         className="h-100"
         data-aos="fade-down"
@@ -25,12 +25,13 @@ const SliderICCidentity = () => {
 
         <div className="mt-4">
           <div>
-            <h1 className="text-center project-text">ICC identity</h1>
+            <h1 className="text-center project-text">
+              Executive Initiatives Office
+            </h1>
             <p className="text-center mb-0 mt-3 p-text">
-              We collaborated with ICC, a company specialized in academic
-              training and development for international schools. <br /> and
-              universities, to design a brand identity that reflects its
-              educational mission and global vision.
+              We produced an official video for the Executive Secretariat of
+              Dubai Police, showcasing the roles <br /> and key achievements of
+              each council within the leadership structure.
             </p>
           </div>
         </div>
@@ -39,18 +40,18 @@ const SliderICCidentity = () => {
             <p className="mb-0 " style={{ color: "#606060" }}>
               {" "}
               CLIENT:
-              <span className="fw-bold text-black ms-2">Cemart</span>
+              <span className="fw-bold text-black ms-2">Executive Initiatives Office – Dubai Police</span>
             </p>
             <p className="mb-0 " style={{ color: "#606060" }}>
               {" "}
               YEAR:
-              <span className="fw-bold text-black ms-2"> 2024</span>
+              <span className="fw-bold text-black ms-2"> 2025</span>
             </p>
             <p className="mb-0 " style={{ color: "#606060" }}>
               {" "}
               Project:
               <span className="fw-bold text-black ms-2">
-                Brand Identity Design
+                Video Production
               </span>
             </p>
           </div>
@@ -60,4 +61,4 @@ const SliderICCidentity = () => {
   );
 };
 
-export default SliderICCidentity;
+export default SliderExecutiveIOffice;

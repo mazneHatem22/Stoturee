@@ -24,10 +24,10 @@ const SliderCemartidentity = () => {
           className="mt-4" 
         >
           <div>
-            <h1 className="text-center project-text">ICC identity</h1>
+            <h1 className="text-center project-text">Cemart identity</h1>
             <p className="text-center mb-0 mt-3 p-text">
-            We collaborated with ICC, a company specialized in academic training and development for international schools <br />{" "}
-              and universities, to design a brand identity that reflects its educational mission and global vision.
+             We developed this project for Cemart, a company specialized in construction and interior design. <br />{" "}
+              The brand identity was crafted to reflect its modern style and professional presence.
             </p>
           </div>
         </div>
@@ -37,7 +37,7 @@ const SliderCemartidentity = () => {
             <p className="mb-0 " style={{ color: "#606060" }}>
               {" "}
               CLIENT: 
-              <span className="fw-bold text-black ms-2">ICC</span>
+              <span className="fw-bold text-black ms-2">Cemart</span>
             </p>
            <p className="mb-0 " style={{ color: "#606060" }}>
               {" "}

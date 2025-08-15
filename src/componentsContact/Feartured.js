@@ -151,13 +151,13 @@ const Feartured = () => {
             </div>
           </div>
 
-          <div>
+          <Link to="/PIL">
             <img src={Slid6} alt="" style={{ padding: "0 10px" }} />
-            <div className="mt-3" style={{ padding: "0 10px" }}>
+            <div className="mt-3 text-white" style={{ padding: "0 10px" }}>
               <h4 className="mb-0">PIL</h4>
               <p style={{ fontSize: "13px" }}>Social Media Designs</p>
             </div>
-          </div>
+          </Link>
         </Slider>
       </Container>
     </div>

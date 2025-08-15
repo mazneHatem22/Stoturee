@@ -46,7 +46,8 @@ const OurGroup = () => {
         
           </Col>
           <Col lg="6" md="12" className="mt-3" data-aos="zoom-in" data-aos-duration="2000">
-          <div>
+          <Link to={"/Executive-Initiatives-Office"}>
+           <div style={{color: "black"}}>
              <img
                 style={{ borderRadius: "20px" }}
                 className="w-100"
@@ -57,6 +58,8 @@ const OurGroup = () => {
               <p>Video Production</p>
 
           </div>
+          </Link>
+         
           </Col>
           <Col lg="6" md="12" className="mt-3" data-aos="zoom-in" data-aos-duration="2000">
           <Link to={"/Cemart-Documentary"}>

@@ -15,6 +15,8 @@ import Project4 from "./pages/Projects/Project4";
 import Footer from "./componentsHome/Footer";
 import ProjectCemartidentity from "./pages/Projects/ProjectCemartidentity";
 import ProjectICCidentity from "./pages/Projects/ProjectICCidentity";
+import ProjectPIL from "./pages/Projects/ProjectPIL";
+import ProjectExecutiveIOffice from "./pages/Projects/ProjectExecutiveIOffice";
 
 
 function App() {
@@ -45,6 +47,8 @@ function App() {
     <Route path="/Cemart-Documentary" element={<Project4/>}/>
     <Route path="/Cemart-identity" element={<ProjectCemartidentity/>}/>
     <Route path="/ICC-identity" element={<ProjectICCidentity/>}/>
+    <Route path="/PIL" element={<ProjectPIL/>}/>
+    <Route path="/Executive-Initiatives-Office" element={<ProjectExecutiveIOffice/>}/>
     <Route path="/contact" element={<ContactUs />}/>
     <Route path="/policy" element={<Policy />}/>
     <Route path="/terms" element={<Terms />}/>

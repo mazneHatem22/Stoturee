@@ -3,11 +3,11 @@ import { Container } from "react-bootstrap";
 import { useNavigate, useLocation } from "react-router-dom";
 import svg from "../images/Asset 12.svg";
 
-const SliderICCidentity = () => {
+const SliderPIL = () => {
   const location = useLocation();
   const navigate = useNavigate();
   return (
-    <div className="background-iCCidentity position-relative">
+    <div className="background-pil position-relative">
       <Container
         className="h-100"
         data-aos="fade-down"
@@ -25,12 +25,13 @@ const SliderICCidentity = () => {
 
         <div className="mt-4">
           <div>
-            <h1 className="text-center project-text">ICC identity</h1>
+            <h1 className="text-center project-text">PIL</h1>
             <p className="text-center mb-0 mt-3 p-text">
-              We collaborated with ICC, a company specialized in academic
-              training and development for international schools. <br /> and
-              universities, to design a brand identity that reflects its
-              educational mission and global vision.
+              We participated in the PIL program by creating the visual designs
+              for its social media platforms,
+              <br />
+              delivering a style that reflects the program’s identity and its
+              focus on innovation and leadership.
             </p>
           </div>
         </div>
@@ -39,7 +40,7 @@ const SliderICCidentity = () => {
             <p className="mb-0 " style={{ color: "#606060" }}>
               {" "}
               CLIENT:
-              <span className="fw-bold text-black ms-2">Cemart</span>
+              <span className="fw-bold text-black ms-2">PIL</span>
             </p>
             <p className="mb-0 " style={{ color: "#606060" }}>
               {" "}
@@ -50,7 +51,7 @@ const SliderICCidentity = () => {
               {" "}
               Project:
               <span className="fw-bold text-black ms-2">
-                Brand Identity Design
+               Social Media Designs
               </span>
             </p>
           </div>
@@ -60,4 +61,4 @@ const SliderICCidentity = () => {
   );
 };
 
-export default SliderICCidentity;
+export default SliderPIL;
