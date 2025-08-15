@@ -233,6 +233,22 @@ body .navbar {
   height: 100vh;
   background-position-y: 50%;
 }
+.background-cemartidentity {
+  background-image: url(./images2/Cemartidentity0.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  background-position-y: 50%;
+}
+.background-iCCidentity {
+  background-image: url(./images2/iCCidentity0.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  background-position-y: 50%;
+}
 .background-documentary {
   background-image: url(./images2/Stoture\ Web\ work\ 2-07-2\ \(1\).png);
   background-repeat: no-repeat;

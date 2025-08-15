@@ -1,9 +1,8 @@
 import React from 'react'
-import SliderPromoContent from '../../componentsProject1/SliderPromoContent'
-import PromoVidos from '../../componentsProject1/PromoVidos'
+import SliderPromoContent from '../../PromoContact-DWOC/SliderPromoContent'
+import PromoVidos from '../../PromoContact-DWOC/PromoVidos'
 import Us from '../../componentsHome/Us'
-import Footer from '../../componentsHome/Footer'
-import ScrollTop from '../../componentsHome/ScrollTop'
+
 
 const Promo = () => {
   return (

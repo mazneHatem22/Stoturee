@@ -13,6 +13,8 @@ import Project1 from "./pages/Projects/Project1";
 import Project2 from "./pages/Projects/Project2";
 import Project4 from "./pages/Projects/Project4";
 import Footer from "./componentsHome/Footer";
+import ProjectCemartidentity from "./pages/Projects/ProjectCemartidentity";
+import ProjectICCidentity from "./pages/Projects/ProjectICCidentity";
 
 
 function App() {
@@ -41,6 +43,8 @@ function App() {
     <Route path="/PromoContent-DWOC" element={<Project1/>}/>
     <Route path="/DOWC-Highlights" element={<Project2/>}/>
     <Route path="/Cemart-Documentary" element={<Project4/>}/>
+    <Route path="/Cemart-identity" element={<ProjectCemartidentity/>}/>
+    <Route path="/ICC-identity" element={<ProjectICCidentity/>}/>
     <Route path="/contact" element={<ContactUs />}/>
     <Route path="/policy" element={<Policy />}/>
     <Route path="/terms" element={<Terms />}/>

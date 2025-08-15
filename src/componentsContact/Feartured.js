@@ -14,6 +14,7 @@ import Slider from 'react-slick';
 
 import arrowLeft from '../images2/Arrow ---01.png';
 import arrowRight from '../images2/Arrow right-01.png';
+import { Link } from "react-router-dom";
 
 
 
@@ -29,7 +30,7 @@ const Feartured = () => {
     centerMode: true,
     initialSlide: 0,
     autoplay: true,
-    autoplaySpeed: 1000,
+    autoplaySpeed: 2000,
     responsive: [
       {
         breakpoint: 1024,
@@ -108,21 +109,21 @@ const Feartured = () => {
         </div>
 
         <Slider ref={sliderRef} className="mt-3 slider-fearturead" {...settings}>
-          <div>
+          <Link to="/Cemart-identity">
              <img src={Slid2} alt="" style={{ padding: "0 10px" }} />
-            <div className="mt-3" style={{ padding: "0 10px" }}>
+            <div className="mt-3 text-white" style={{ padding: "0 10px" }}>
               <h4 className="mb-0">Cemart</h4>
               <p style={{ fontSize: "13px" }}>Brand Identity Design</p>
             </div>
-          </div>
+          </Link>
 
-          <div>
+          <Link to="/ICC-identity">
             <img src={Slid1} alt="" style={{ padding: "0 10px" }} />
-            <div className="mt-3" style={{ padding: "0 10px" }}>
+            <div className="mt-3 text-white" style={{ padding: "0 10px" }}>
               <h4 className="mb-0">ICC</h4>
               <p style={{ fontSize: "13px" }}>Brand Identity Design</p>
             </div>
-          </div>
+          </Link>
 
           <div>
             <img src={Slid3} alt="" style={{ padding: "0 10px" }} />
