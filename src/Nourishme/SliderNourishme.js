@@ -26,7 +26,7 @@ const SliderNourishme = () => {
         <div className="mt-4">
           <div>
             <h1 className="text-center project-text">
-              Nourish me. <span>HEPN</span>
+              Nourish me. <span style={{fontSize:"35px"}}>HEPN</span>
             </h1>
             <p className="text-center mb-0 mt-3 p-text">
               We developed the brand identity for NourishMe, a medical brand
