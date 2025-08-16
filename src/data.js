@@ -24,3 +24,16 @@ export const data2 = [
     {img: "Img-Project/Cemartidentity9.jpg"}
    
 ] 
+export const data3 = [
+    {img: "Img-Project/ICCidentity1.jpg"},
+    {img: "Img-Project/ICCidentity2.jpg"},
+    {img: "Img-Project/ICCidentity3.jpg"},
+    {img: "Img-Project/ICCidentity4.jpg"},
+    {img: "Img-Project/ICCidentity5.jpg"},
+    {img: "Img-Project/ICCidentity6.jpg"},
+    {img: "Img-Project/ICCidentity7.jpg"},
+    {img: "Img-Project/ICCidentity8.jpg"},
+    {img: "Img-Project/ICCidentity9.jpg"},
+    {img: "Img-Project/ICCidentity10.jpg"}
+   
+] 
