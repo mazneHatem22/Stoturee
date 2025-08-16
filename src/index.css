@@ -272,7 +272,25 @@ body .navbar {
   width: 100%;
   height: 100vh;
 }
+.background-nourishme {
+  background-image: url(./images2/All\ Photos3-32.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  background-position-y: 50%;
+}
 .background-documentary::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+ 
+}
+.background-nourishme::before {
   content: "";
   position: absolute;
   top: 0;

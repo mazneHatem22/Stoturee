@@ -3,11 +3,11 @@ import { Container } from "react-bootstrap";
 import { useNavigate, useLocation } from "react-router-dom";
 import svg from "../images/Asset 12.svg";
 
-const SliderICCidentity = () => {
+const SliderNourishme = () => {
   const location = useLocation();
   const navigate = useNavigate();
   return (
-    <div className="background-iCCidentity position-relative">
+    <div className="background-nourishme position-relative">
       <Container
         className="h-100"
         data-aos="fade-down"
@@ -25,12 +25,14 @@ const SliderICCidentity = () => {
 
         <div className="mt-4">
           <div>
-            <h1 className="text-center project-text">ICC identity</h1>
+            <h1 className="text-center project-text">
+              Nourish me. <span>HEPN</span>
+            </h1>
             <p className="text-center mb-0 mt-3 p-text">
-              We collaborated with ICC, a company specialized in academic
-              training and development for international schools. <br /> and
-              universities, to design a brand identity that reflects its
-              educational mission and global vision.
+              We developed the brand identity for NourishMe, a medical brand
+              specialized in IV nutrition services, <br />
+              with a visual style that reflects both its clinical precision and
+              human-centered care.
             </p>
           </div>
         </div>
@@ -39,7 +41,7 @@ const SliderICCidentity = () => {
             <p className="mb-0 " style={{ color: "#606060" }}>
               {" "}
               CLIENT:
-              <span className="fw-bold text-black ms-2">ICC</span>
+              <span className="fw-bold text-black ms-2">Nourishme.HEPN</span>
             </p>
             <p className="mb-0 " style={{ color: "#606060" }}>
               {" "}
@@ -60,4 +62,4 @@ const SliderICCidentity = () => {
   );
 };
 
-export default SliderICCidentity;
+export default SliderNourishme;

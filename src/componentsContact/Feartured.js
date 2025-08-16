@@ -143,13 +143,13 @@ const Feartured = () => {
             </div>
           </div>
 
-          <div>
+          <Link to="/Nourishme">
             <img src={Slid5} alt="" style={{ padding: "0 10px" }} />
-            <div className="mt-3" style={{ padding: "0 10px" }}>
+            <div className="mt-3 text-white" style={{ padding: "0 10px" }}>
               <h4 className="mb-0">Nourish me.HEPN</h4>
               <p style={{ fontSize: "13px" }}>Brand Identity Design</p>
             </div>
-          </div>
+          </Link>
 
           <Link to="/PIL">
             <img src={Slid6} alt="" style={{ padding: "0 10px" }} />

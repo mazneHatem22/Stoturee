@@ -17,6 +17,7 @@ import ProjectCemartidentity from "./pages/Projects/ProjectCemartidentity";
 import ProjectICCidentity from "./pages/Projects/ProjectICCidentity";
 import ProjectPIL from "./pages/Projects/ProjectPIL";
 import ProjectExecutiveIOffice from "./pages/Projects/ProjectExecutiveIOffice";
+import ProjectNourishme from "./pages/Projects/ProjectNourishme";
 
 
 function App() {
@@ -49,6 +50,7 @@ function App() {
     <Route path="/ICC-identity" element={<ProjectICCidentity/>}/>
     <Route path="/PIL" element={<ProjectPIL/>}/>
     <Route path="/Executive-Initiatives-Office" element={<ProjectExecutiveIOffice/>}/>
+    <Route path="/Nourishme" element={<ProjectNourishme/>}/>
     <Route path="/contact" element={<ContactUs />}/>
     <Route path="/policy" element={<Policy />}/>
     <Route path="/terms" element={<Terms />}/>
